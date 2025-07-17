@@ -230,9 +230,10 @@
     <h1>🔐 ShareAccounts</h1>
     <nav>
       <a href="#netflix">Netflix</a>
-      <a href="#hbo">HBO</a>
+      <a href="#Crunchyrol">Crunchyrol</a>
       <a href="#spotify">Spotify</a>
       <a href="#disney">Disney+</a>
+      <a href="#HBO">HBOMax</a>
       <a href="#tecnicas">Técnicas</a>
     </nav>
   </header>
@@ -242,8 +243,8 @@
     <div class="grid-cuentas"></div>
   </section>
 
-  <section id="hbo" class="seccion">
-    <h2>HBO</h2>
+  <section id="Crunchyrol" class="seccion">
+    <h2>Crunchyrol</h2>
     <div class="grid-cuentas"></div>
   </section>
 
@@ -254,6 +255,11 @@
 
   <section id="disney" class="seccion">
     <h2>Disney+</h2>
+    <div class="grid-cuentas"></div>
+  </section>
+
+  <section id="HBO" class="seccion">
+    <h2>HBOMax</h2>
     <div class="grid-cuentas"></div>
   </section>
 
@@ -321,9 +327,10 @@
         }
 
         renderCuentas("netflix", data.netflix);
-        renderCuentas("hbo", data.hbo);
+        renderCuentas("Crunchyrol", data.Crunchyrol);
         renderCuentas("spotify", data.spotify);
         renderCuentas("disney", data.disney);
+        renderCuentas("HBO", data.HBO);
         renderTecnicas("tecnicas", data.tecnicas);
 
       } catch (err) {

@@ -1,36 +1,41 @@
 {
   "netflix": [
-    { "email": "aaaaaaaaaaaaaa", "password": "clave123" },
-    { "email": "cuenta2@netflix.com", "password": "clave456" },
-    { "email": "cuenta3@netflix.com", "password": "clave456" }
+    { "email": "oliwier.idzi.oi@gmail.com", "password": "8cEhxrR3LmRaG8!" },
+    { "email": "wsamuelngatia@gmail.com", "password": "Netflix@2022" },
+    { "email": "bryanclashroyale56@gmail.com", "password": "g8s9bryan" }
   ],
-  "hbo": [
-    { "email": "cuenta1@hbo.com", "password": "clave321" },
-    { "email": "cuenta2@hbo.com", "password": "clave321" },
-    { "email": "cuenta3@hbo.com", "password": "clave321" }
-  ],
-  "Spotify": [
+  "Crunchyrol": [
     { "email": "Syther721@rocketmail.com", "password": "A456258" },
-    { "email": "cuenta2@spotify.com", "password": "clave321" },
-    { "email": "cuenta3@spotify.com", "password": "clave321" }
+    { "email": "crunchyroll023@damxixa.xyz", "password": "narnia1234" },
+    { "email": "crunchy1154322@baqueramatoday.com", "password": "crema2020" }
+  ],
+  "spotify": [
+    { "email": "ing_geografica@gmail.com", "password": "Regalo123" },
+    { "email": "pjoel.abx90494@gmail.com", "password": "Regalo123@" },
+    { "email": "pepeelpepe@rilemei.com", "password": "Maxi2403.Rap." }
   ],
   "disney": [
-    { "email": "cuenta1@disney.com", "password": "clave321" },
-    { "email": "cuenta2@disney.com", "password": "clave321" },
+    { "email": "Bulletpierce2025@gmail.com", "password": "Regalo2025@" },
+    { "email": "worldfriendsx1@gmail.com", "password": "Regalo2025" },
+    { "email": "cuenta3@disney.com", "password": "clave321" }
+  ],
+  "hbo": [
+    { "email": "turburasvlad@yahoo.com", "password": "Turburas96" },
+    { "email": "cuenta3@disney.com", "password": "clave321" },
     { "email": "cuenta3@disney.com", "password": "clave321" }
   ],
   "tecnicas": [
     {
-      "titulo": "XBOX GAME PASS",
-      "contenido": "💳 BIN: 530691772283xxxx\n📆 FECHA: 11-2028\n🏧 CVV: RANDOM\n📌 IP: Colombia"
+      "titulo": "nnn 🇵🇾",
+      "contenido": "💳 BIN: 625201xxxxxxxxxx\n📆 FECHA: RANDOM\n🏧 CVV: RANDOM\n📌 IP: PROPIO"
     },
     {
-      "titulo": "DISNEY+",
-      "contenido": "💳 BIN: 414785301223\n📆 FECHA: 01-2029\n🏧 CVV: RANDOM\n📌 IP: Ecuador"
+      "titulo": "nnn 🇵🇾",
+      "contenido": "💳 BIN: 625201xxxxxxxxxx\n📆 FECHA: RANDOM\n🏧 CVV: RANDOM\n📌 IP: PROPIO"
     },
     {
-      "titulo": "CRUNCHYROLL",
-      "contenido": "💳 BIN: 456331004060xxxx\n📆 FECHA: 08-2027\n🏧 CVV: RANDOM\n📌 IP: Albania"
+      "titulo": "nnn 🇵🇾",
+      "contenido": "💳 BIN: 625201xxxxxxxxxx\n📆 FECHA: RANDOM\n🏧 CVV: RANDOM\n📌 IP: PROPIO"
     }
   ]
 }
