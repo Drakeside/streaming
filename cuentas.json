@@ -1,0 +1,36 @@
+{
+  "netflix": [
+    { "email": "cuenta1@netflix.com", "password": "clave123" },
+    { "email": "cuenta2@netflix.com", "password": "clave456" },
+    { "email": "cuenta3@netflix.com", "password": "clave456" }
+  ],
+  "hbo": [
+    { "email": "cuenta1@hbo.com", "password": "clave321" },
+    { "email": "cuenta2@hbo.com", "password": "clave321" },
+    { "email": "cuenta3@hbo.com", "password": "clave321" }
+  ],
+  "spotify": [
+    { "email": "cuenta1@spotify.com", "password": "clave321" },
+    { "email": "cuenta2@spotify.com", "password": "clave321" },
+    { "email": "cuenta3@spotify.com", "password": "clave321" }
+  ],
+  "disney": [
+    { "email": "cuenta1@disney.com", "password": "clave321" },
+    { "email": "cuenta2@disney.com", "password": "clave321" },
+    { "email": "cuenta3@disney.com", "password": "clave321" }
+  ],
+  "tecnicas": [
+    {
+      "titulo": "nnn 🇵🇾",
+      "contenido": "💳 BIN: 625201xxxxxxxxxx\n📆 FECHA: RANDOM\n🏧 CVV: RANDOM\n📌 IP: PROPIO"
+    },
+    {
+      "titulo": "nnn 🇵🇾",
+      "contenido": "💳 BIN: 625201xxxxxxxxxx\n📆 FECHA: RANDOM\n🏧 CVV: RANDOM\n📌 IP: PROPIO"
+    },
+    {
+      "titulo": "nnn 🇵🇾",
+      "contenido": "💳 BIN: 625201xxxxxxxxxx\n📆 FECHA: RANDOM\n🏧 CVV: RANDOM\n📌 IP: PROPIO"
+    }
+  ]
+}
