@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShareAccounts</title>
+  <title>ShareAccounts - Neon Edition</title>
   <link rel="shortcut icon" href="favicon/MundoMedia.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@700&display=swap" rel="stylesheet">
   <style>
@@ -623,57 +623,88 @@
       });
     });
 
-    // Función para cargar cuentas desde el archivo JSON
-    async function cargarCuentas() {
-      try {
-        const response = await fetch('cuentas.json');
-        if (!response.ok) {
-          throw new Error('Error al cargar el archivo JSON');
+    // Cargar datos de cuentas
+    const data = {
+      "netflix": [
+        { "email": "oliwier.idzi.oi@gmail.com", "password": "8cEhxrR3LmRaG8!" },
+        { "email": "wsamuelngatia@gmail.com", "password": "Netflix@2022" },
+        { "email": "bryanclashroyale56@gmail.com", "password": "g8s9bryan" }
+      ],
+      "Crunchyroll": [
+        { "email": "Syther721@rocketmail.com", "password": "A456258" },
+        { "email": "crunchyroll023@damxixa.xyz", "password": "narnia1234" },
+        { "email": "crunchy1154322@baqueramatoday.com", "password": "crema2020" }
+      ],
+      "spotify": [
+        { "email": "ing_geografica@gmail.com", "password": "Regalo123" },
+        { "email": "pjoel.abx90494@gmail.com", "password": "Regalo123@" },
+        { "email": "pepeelpepe@rilemei.com", "password": "Maxi2403.Rap." }
+      ],
+      "disney": [
+        { "email": "Bulletpierce2025@gmail.com", "password": "Regalo2025@" },
+        { "email": "worldfriendsx1@gmail.com", "password": "Regalo2025" },
+        { "email": "cuenta3@disney.com", "password": "clave321" }
+      ],
+      "HBO": [
+        { "email": "turburasvlad@yahoo.com", "password": "Turburas96" },
+        { "email": "cuenta3@disney.com", "password": "clave321" },
+        { "email": "cuenta3@disney.com", "password": "clave321" }
+      ],
+      "tecnicas": [
+        {
+          "titulo": "XBOX G4ME PASS",
+          "contenido": "💳 BIN: 530691772283xxxx \n📆 FECHA: 11 - 2028\n🏧 CVV: 000\n📌 IP: Colombia"
+        },
+        {
+          "titulo": "DISN3Y+",
+          "contenido": "💳 BIN: 414785301223\n📆 FECHA: 01 - 2029\n🏧 CVV: RANDOM\n📌 IP: Ecuador"
+        },
+        {
+          "titulo": "DEEZ3R",
+          "contenido": "💳 BIN: 37648348059xxxx\n📆 FECHA: 08 - 2025\n🏧 CVV: RANDOM\n📌 IP: Brasil\n CPF: 897.075.337-06"
         }
-        const data = await response.json();
+      ]
+    };
 
-        function renderCuentas(seccionId, cuentas) {
-          const contenedor = document.querySelector(`#${seccionId} .grid-cuentas`);
-          contenedor.innerHTML = "";
-          cuentas.forEach((cuenta, i) => {
-            const card = document.createElement("div");
-            card.className = "card";
-            card.innerHTML = `
-              <h3>Cuenta ${i + 1}</h3>
-              <div class="datos">
-                📧 Email: ${cuenta.email}<br>
-                🔑 Contraseña: ${cuenta.password}
-              </div>
-            `;
-            contenedor.appendChild(card);
-          });
-        }
+    function renderCuentas(seccionId, cuentas) {
+      const contenedor = document.querySelector(`#${seccionId} .grid-cuentas`);
+      contenedor.innerHTML = "";
+      cuentas.forEach((cuenta, i) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <h3>Cuenta ${i + 1}</h3>
+          <div class="datos">
+            📧 Email: ${cuenta.email}<br>
+            🔑 Contraseña: ${cuenta.password}
+          </div>
+        `;
+        contenedor.appendChild(card);
+      });
+    }
 
-        function renderTecnicas(seccionId, tecnicas) {
-          const contenedor = document.querySelector(`#${seccionId} .grid-cuentas`);
-          contenedor.innerHTML = "";
-          tecnicas.forEach(tecnica => {
-            const card = document.createElement("div");
-            card.className = "card";
-            card.innerHTML = `
-              <h3>${tecnica.titulo}</h3>
-              <div class="datos">${tecnica.contenido}</div>
-            `;
-            contenedor.appendChild(card);
-          });
-        }
+    function renderTecnicas(seccionId, tecnicas) {
+      const contenedor = document.querySelector(`#${seccionId} .grid-cuentas`);
+      contenedor.innerHTML = "";
+      tecnicas.forEach(tecnica => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <h3>${tecnica.titulo}</h3>
+          <div class="datos">${tecnica.contenido}</div>
+        `;
+        contenedor.appendChild(card);
+      });
+    }
 
-        renderCuentas("netflix", data.netflix);
-        renderCuentas("Crunchyroll", data.Crunchyroll);
-        renderCuentas("spotify", data.spotify);
-        renderCuentas("disney", data.disney);
-        renderCuentas("HBO", data.HBO);
-        renderTecnicas("tecnicas", data.tecnicas);
-
-      } catch (err) {
-        console.error("Error cargando datos:", err);
-        // Manejar el error, por ejemplo, mostrar un mensaje al usuario
-      }
+    // Cargar todas las secciones
+    function cargarCuentas() {
+      renderCuentas("netflix", data.netflix);
+      renderCuentas("Crunchyroll", data.Crunchyroll);
+      renderCuentas("spotify", data.spotify);
+      renderCuentas("disney", data.disney);
+      renderCuentas("HBO", data.HBO);
+      renderTecnicas("tecnicas", data.tecnicas);
     }
 
     window.addEventListener("DOMContentLoaded", cargarCuentas);
