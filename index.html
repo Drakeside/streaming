@@ -638,7 +638,7 @@
     // Función para cargar cuentas desde el archivo JSON
     async function cargarCuentas() {
       try {
-        const response = await fetch('accounts.json');
+        const response = await fetch('./accounts.json');
         if (!response.ok) {
           throw new Error('Error al cargar el archivo JSON');
         }
