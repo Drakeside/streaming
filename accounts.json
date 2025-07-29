@@ -24,18 +24,31 @@
     { "email": "cuenta3@disney.com", "password": "clave321" },
     { "email": "cuenta3@disney.com", "password": "clave321" }
   ],
+
+  "SCRIBD": [
+    { "email": "labome4878@hosintoy.com", "password": "Friends123." },
+    { "email": "lapbrapro45@magim.be", "password": "Regalo1234" },
+    { "email": "yixelo8798@kubva.com", "password": "Regalo123R" }
+  ],
+
+  "PARAMOUNT": [
+    { "email": "onanatenu@gmail.com", "password": "nanaumi1428" },
+    { "email": "carlosssierradiazf485@gmail.com", "password": "Regalo123@" },
+    { "email": "ocampgabr+bvtt57@gmail.com", "password": "portafolio12" }
+  ],
+
   "tecnicas": [
     {
-      "titulo": "XBOX G4ME PASS",
-      "contenido": "💳 BIN: 530691772283xxxx \n📆 FECHA: 11 - 2028\n🏧 CVV: 000\n📌 IP: Colombia"
+      "titulo": "J4RV1S 1 MES",
+      "contenido": "💳 BIN: 542432167927  \n📆 FECHA: 01 - 2029\n🏧 CVV: 000\n📌 IP: PROPIA"
     },
     {
-      "titulo": "DISN3Y+",
-      "contenido": "💳 BIN: 414785301223\n📆 FECHA: 01 - 2029\n🏧 CVV: RANDOM\n📌 IP: Ecuador"
+      "titulo": "M3T0D0 SCR1BD",
+      "contenido": "💳 BIN: 559888033532xxxx \n📆 FECHA: 02 - 2031\n🏧 CVV: RANDOM\n📌 IP: Francia"
     },
     {
-      "titulo": "DEEZ3R",
-      "contenido": "💳 BIN: 37648348059xxxx\n📆 FECHA: 08 - 2025\n🏧 CVV: RANDOM\n📌 IP: Brasil\n CPF: 897.075.337-06"
+      "titulo": "SP0T1FY",
+      "contenido": "💳 BIN: 41691608495\n📆 FECHA: 03 - 2027\n🏧 CVV: RANDOM\n📌 IP: Mexico\n "
     }
   ]
 }

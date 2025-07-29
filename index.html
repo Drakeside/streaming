@@ -560,19 +560,21 @@
   <header>
     <h1 class="neon-title"><span>S</span><span>h</span><span>a</span><span>r</span><span>e</span><span>A</span><span>c</span><span>c</span><span>o</span><span>u</span><span>n</span><span>t</span><span>s</span></h1>
     <nav>
-      <a href="#netflix">N3tflix</a>
+      <!-- <a href="#netflix">N3tflix</a> -->
       <a href="#Crunchyroll">Crunchyr0ll</a>
       <a href="#spotify">Sp0t1fy</a>
-      <a href="#disney">D1sn3y+</a>
+      <!--<a href="#disney">D1sn3y+</a> -->
       <a href="#HBO">HB0Max</a>
+      <a href="#SCRIBD">SCR1BD</a>
+      <a href="#IPTV">1PTV</a>
       <a href="#tecnicas">Técnicas</a>
     </nav>
   </header>
 
-  <section id="netflix" class="seccion">
+  <!-- <section id="netflix" class="seccion">
     <h2>N3tflix</h2>
     <div class="grid-cuentas"></div>
-  </section>
+  </section> -->
 
   <section id="Crunchyroll" class="seccion">
     <h2>Crunchyr0ll</h2>
@@ -584,13 +586,23 @@
     <div class="grid-cuentas"></div>
   </section>
 
-  <section id="disney" class="seccion">
+  <!-- <section id="disney" class="seccion">
     <h2>D1sn3y+</h2>
     <div class="grid-cuentas"></div>
-  </section>
+  </section> -->
 
   <section id="HBO" class="seccion">
     <h2>HB0Max</h2>
+    <div class="grid-cuentas"></div>
+  </section>
+
+  <section id="SCRIBD" class="seccion">
+    <h2>SCR1BD</h2>
+    <div class="grid-cuentas"></div>
+  </section>
+
+  <section id="IPTV" class="seccion">
+    <h2>1PTV</h2>
     <div class="grid-cuentas"></div>
   </section>
 
@@ -668,6 +680,8 @@
         renderCuentas("spotify", data.spotify);
         renderCuentas("disney", data.disney);
         renderCuentas("HBO", data.HBO);
+        renderCuentas("SCRIBD", data.SCRIBD);
+        renderCuentas("PARAMOUNT", data.PARAMOUNT);
         renderTecnicas("tecnicas", data.tecnicas);
 
       } catch (err) {
