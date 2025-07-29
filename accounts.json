@@ -25,13 +25,13 @@
     { "email": "cuenta3@disney.com", "password": "clave321" }
   ],
 
-  "SCRIBD": [
+  "scribd": [
     { "email": "labome4878@hosintoy.com", "password": "Friends123." },
     { "email": "lapbrapro45@magim.be", "password": "Regalo1234" },
     { "email": "yixelo8798@kubva.com", "password": "Regalo123R" }
   ],
 
-  "PARAMOUNT": [
+  "paramount": [
     { "email": "onanatenu@gmail.com", "password": "nanaumi1428" },
     { "email": "carlosssierradiazf485@gmail.com", "password": "Regalo123@" },
     { "email": "ocampgabr+bvtt57@gmail.com", "password": "portafolio12" }
